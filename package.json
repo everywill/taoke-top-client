@@ -1,6 +1,6 @@
 {
-  "name": "taobao-top-sdk",
-  "description": "promise based taobao open top sdk",
+  "name": "taoke-top-sdk",
+  "description": "promise based taoke open top sdk",
   "version": "1.0.0",
   "engines": {
     "node": ">=8.9.0"

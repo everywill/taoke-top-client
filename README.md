@@ -1,19 +1,19 @@
-# taobao-top-client
+# taoke-top-client
 淘宝联盟node sdk，因官方提供的版本已不可用，因此提供非官方版，希望比官方好用，欢迎issue和pr。
 
 #### 安装
 使用npm:
 ```
-npm i taobao-top-client -S
+npm i taoke-top-client -S
 ```
 或者yarn:
 ```
-yarn add taobao-top-client
+yarn add taoke-top-client
 ```
 
 #### 引入文件
 ```
-const { TopClient } = require('taobao-top-client')
+const { TopClient } = require('taoke-top-client')
 ```
 
 #### 配置
