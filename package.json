@@ -1,0 +1,23 @@
+{
+  "name": "taobao-top-sdk",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-plugin-node": "^8.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "form-data": "^2.3.3",
+    "mime": "^2.4.0",
+    "qs": "^6.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everywill/taobao-top-client.git"
+  },
+  "author": "everywill",
+  "license": "MIT"
+}
