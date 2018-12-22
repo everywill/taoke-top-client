@@ -19,7 +19,7 @@ const { TopClient } = require('taobao-top-client')
 #### 配置
 使用淘宝联盟的appkey，appsecret和api的endpoint进行初始化:
 ```
-klcps.config({
+const client = new TopClient({
   appkey: 'yourappkey',
   appSecret: 'yourappsecret',
   url: 'taobao top endpoint', // 默认为 http://gw.api.taobao.com/router/rest
@@ -27,4 +27,14 @@ klcps.config({
 ```
 
 #### API
-注意调用api返回的都是promise，可使用async/await；
+例如查询商品： 
+```
+client.execute('taobao.tbk.item.get', {
+      fields: 'num_iid,title,pict_url,small_images,reserve_price,zk_final_price,user_type,item_url,volume',
+      q: '逆水寒',
+      sort: 'tk_total_sales_des,
+      page_no: 1,
+      page_size: 2,
+    })
+```
+注意调用api返回的都是promise，因此可使用async/await。
