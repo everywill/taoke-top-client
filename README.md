@@ -4,16 +4,16 @@
 #### 安装
 使用npm:
 ```
-npm i taoke-top-client -S
+npm i taoke-top-sdk -S
 ```
 或者yarn:
 ```
-yarn add taoke-top-client
+yarn add taoke-top-sdk
 ```
 
 #### 引入文件
 ```
-const { TopClient } = require('taoke-top-client')
+const { TopClient } = require('taoke-top-sdk')
 ```
 
 #### 配置
